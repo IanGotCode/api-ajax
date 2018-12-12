@@ -1,1 +1,4 @@
-# api-ajax
+Please create a github repository with a README that explains how to approach and implement connecting javascript applications to an API using AJAX. You do not have to write any code, but may use pseudo code and code examples in your README to explain the process. There is not a strict word or page limit, but it should be appropriate length to convey your ideas.
+
+
+So when it comes to connect an APIT to AJAx, you'd want to create javascript files. I would name them api.js events.js & ui.js. With each of these files at the top of the page you will require relevant files using a variable that equals require and calling the location of the file needed in parenthesis and quotations. You'd want to create crud actions, create, read, update & destroy. You can create, update, show, index & delete Players or Games(Tic Tac Toe). With that being said, that information would go into the api.js. You can run these via curl scripts or while using node as well. All of that information will hit the events.js file and will also connect to the ui.js
